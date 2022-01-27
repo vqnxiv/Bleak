@@ -1,0 +1,145 @@
+{
+  "name": "Bleak",
+  "dark": true,
+  "author": "vqn",
+  "editorScheme": "/Bleak.xml",
+  
+  "colors": {
+    "background_dark": "#1F1F1F",
+    "background_light": "#272727",
+    "border_light": "#404040",
+    "border_dark": "#303030",
+    "foreground_light": "#AFAFAF",
+    "selection_dark": "#1B1B1B",
+    "selection_light": "#232323"
+  },
+
+  "ui": {
+    "*": {
+      "background": "background_light",
+      "foreground": "foreground_light"
+    },
+
+    "Borders": {
+      "color": "background_light",
+      "ContrastBorderColor": "background_light"
+    },
+
+    "Button": {
+      "background": "background_light",
+      "disabledBorderColor": "border_light",
+      "endBackground": "background_light",
+      "endBorderColor": "border_light",
+      "focusedBorderColor": "selection_dark",
+      "startBackground": "background_light",
+      "startBorderColor": "border_light",
+      "shadowWidth": 0,
+      "default": {
+        "startBackground": "background_light",
+        "startBorderColor": "border_light",
+        "endBackground": "background_light",
+        "endBorderColor": "border_light",
+        "focusColor": "selection_dark"
+      }
+    },
+
+    "CompletionPopup": {
+      "selectionBackground": "selection_dark"
+    },
+
+    "DebuggerTabs": {
+      "underlinedTabBackground": "selection_light"
+    },
+
+    "DefaultTabs": {
+      "borderColor": "background_light",
+      "inactiveUnderlineColor": "background_light",
+      "underlineColor": "background_light"
+    },
+
+    "Editor": {
+      "background": "background_dark",
+      "foreground": "foreground_light"
+    },
+
+    "EditorTabs": {
+      "background": "background_light",
+      "borderColor": "background_light",
+      "hoverBackground": "selection_dark",
+      "inactiveUnderlineColor": "background_dark",
+      "underlineColor": "background_dark",
+      "underlinedTabBackground": "background_dark"
+    },
+
+    "FileColor": {
+      "Blue": "#608E9E",
+      "Orange": "#A06345"
+    },
+
+    "List": {
+      "selectionBackground": "selection_dark"
+    },
+
+    "Menu": {
+      "borderColor": "border_dark",
+      "separatorColor": "background_light"
+    },
+
+    "MenuBar": {
+      "borderColor": "background_light",
+      "selectionBackground": "selection_dark"
+    },
+
+    "MenuItem": {
+      "selectionBackground": "selection_dark"
+    },
+
+    "NavBar": {
+      "borderColor": "background_light"
+    },
+
+    "Popup": {
+      "borderColor": "background_light",
+      "inactiveBorderColor": "border_dark",
+      "paintBorder": false,
+      "separatorColor": "background_light"
+    },
+
+    "StatusBar": {
+      "borderColor": "background_light"
+    },
+
+    "ToggleButton": {
+      "onBackground": "border_dark"
+    },
+
+    "ToolBar": {
+      "background": "background_light"
+    },
+
+    "Tooltip": {
+      "separatorColor": "background_light"
+    },
+
+    "ToolTip": {
+      "background": "background_light",
+      "borderColor": "background_light"
+    },
+
+    "ToolWindow": {
+      "Button": {
+        "selectedBackground": "selection_dark"
+      },
+      "Header": {
+        "background": "background_light",
+        "inactiveBackground": "background_light"
+      }
+    },
+
+    "Tree": {
+      "background": "background_light",
+      "selectionBackground": "selection_dark",
+      "selectionInactiveBackground": "selection_light"
+    }
+  }
+}

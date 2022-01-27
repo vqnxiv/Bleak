@@ -1,0 +1,31 @@
+<idea-plugin>
+  <name>Bleak Theme</name>
+  <version>1.0</version>
+  <vendor url="https://github.com/vqnxiv">vqn</vendor>
+
+  <description><![CDATA[
+      Inspired by the VSCode Monokai dimmed theme
+    ]]></description>
+
+  <change-notes><![CDATA[
+      1.0: Initial release.
+    ]]>
+  </change-notes>
+
+  <!-- please see https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <themeProvider id="cf572a7f-fcc8-405d-9e80-b52765ff4d10" path="/Bleak.theme.json"/>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
