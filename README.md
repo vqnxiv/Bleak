@@ -2,6 +2,6 @@ Dark theme inspired by the VSCode Monokai dimmed theme.
 
 Editors: Intellij, lite-xl
 
-![main](/screenshots/full.png)
+![main](/screenshots/intellij-full.png)
 
-![settings](/screenshots/settings.png)
+![settings](/screenshots/intellij-settings.png)
